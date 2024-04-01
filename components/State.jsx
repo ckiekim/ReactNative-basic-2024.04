@@ -4,7 +4,7 @@ import { View, Text, Button, Image } from "react-native";
 export default function State({name}) {
   const [isHungry, setIsHungry] = useState(true);
   return (
-    <View>
+    <View style={{marginBottom: 10}}>
       <Image 
         source={require('../assets/img/cats.jpg')}
         style={{height: 200, width: 300, borderRadius: 20, padding: 10}}

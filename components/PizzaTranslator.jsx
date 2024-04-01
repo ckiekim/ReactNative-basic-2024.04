@@ -4,7 +4,7 @@ import { View, Text, TextInput } from "react-native";
 export default function PizzaTranslator() {
   const [text, setText] = useState('');
   return (
-    <View>
+    <View style={{marginBottom: 10}}>
       <TextInput 
         style={{height: 40}}
         placeholder="문장을 입력하세요."
