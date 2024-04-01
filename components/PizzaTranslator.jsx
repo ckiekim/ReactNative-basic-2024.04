@@ -11,7 +11,7 @@ export default function PizzaTranslator() {
         onChangeText={newText => setText(newText)}
         defaultValue={text}
       />
-      <Text style={{padding: 10, fontSize: 40}}>
+      <Text style={{padding:10, fontSize:40, borderWidth:1, borderColor:'gray'}}>
         {text.split(' ').map(word => word && '🍕').join(' ')}
       </Text>
     </View>
